@@ -3,8 +3,9 @@
 </script>
 
 <template>
-  <el-button type="primary">Primary</el-button>
-</template>
+  <!-- 一级路由出口地址 -->
+   <router-view></router-view>
+  </template>
 
 <style scoped>
 header {
